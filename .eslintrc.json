@@ -7,8 +7,9 @@
   "extends": [
     "airbnb",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
+    "prettier",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -23,12 +24,10 @@
     "react",
     "@typescript-eslint",
     "react-hooks",
-    "prettier",
     "simple-import-sort"
   ],
   "rules": {
     "prettier/prettier": "error",
-
 
     "react/react-in-jsx-scope": "off",
     "react/jsx-one-expression-per-line": "off",
